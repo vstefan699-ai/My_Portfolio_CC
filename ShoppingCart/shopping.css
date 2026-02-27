@@ -1,0 +1,64 @@
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+} */
+
+tr:nth-child(even) {
+    background-color: rgb(216, 216, 216);
+}
+
+/* .shop-table {
+    border-collapse: collapse;
+} */
+
+.shop-table th {
+    width: 100px;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(32, 73, 112);
+}
+
+.shop-table td {
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.shop-table button {
+    width: 70px;
+}
+
+#Remove{
+    background: linear-gradient(to right, rgb(255, 58, 58), rgb(175, 1, 1));
+}
+
+#Add{
+    background: linear-gradient(to right, rgb(2, 138, 201), rgb(0, 119, 255))
+}
+
+#Order{
+    position: relative;
+    left: 44%;
+    top: -2%;
+    font-size: larger;
+    background-color: rgb(32, 73, 112);
+    color: white;
+    height: 28px;
+    width: 170px;
+    border-radius: 4px;
+}
+
+h1{
+    text-align: center;
+}

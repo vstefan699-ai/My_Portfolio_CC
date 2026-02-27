@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="Guessing.css" />
+</head>
+
+<body>
+    <div id="gameBox">
+    <h2>Guess The Random Number Between<br> 0 and 20</h2>
+
+    <input
+        type="number" 
+        id="numberInput" 
+        placeholder="Enter number"
+        min="0"
+        max="20"
+    >
+
+    <br>
+    <br>
+
+    <button id="btn" onclick="storedValue()">Guess</button>
+
+    <p id="result"></p>
+
+    <script src="Guessing.js"></script>
+    </div>
+
+</body>
+</html>

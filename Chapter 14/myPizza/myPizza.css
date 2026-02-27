@@ -1,0 +1,32 @@
+body {
+    font-family: cursive;
+    background-color: rgb(220, 195, 11);
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px dotted black;
+}
+
+#orderForm {
+    background-color: #02f8e4;
+    border: 4px solid rgb(0, 0, 255);
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px;
+    box-shadow: 10px 10px 5px #0f8bf7;
+}
+
+#placeOrder{
+    background-color: #0f8bf7;
+}
+
+#displayTotal{
+    display: none;
+    border: 3px solid  rgb(0, 0, 255);
+    text-align: center;
+    background-color: #02f8e4;
+    padding: 0px;
+    margin: 8px;
+    box-shadow: 10px 10px 5px #0f8bf7;
+}

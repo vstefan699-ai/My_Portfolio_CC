@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(to right, rgb(0, 110, 184), rgb(3, 177, 177));
+}
+
+#gameBox{
+    text-align: center;
+    border: 3px solid rgb(0, 255, 242);
+    padding: 7%;
+    margin: 10%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 15px rgb(0, 255, 242);
+    background-color: rgb(0, 104, 202);
+}
+
+h2{
+    color: bisque;
+}
+
+#result{
+    color: bisque;
+    font-size: large;
+    text-align: center;
+}
+
+#numberInput{
+    border-radius: 10px;
+    font-size: large;
+    width: 25%;
+}
+
+#btn{
+    font-size: large;
+    background-color: rgba(0, 89, 255, 0.849);
+    color: bisque;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px rgb(0, 140, 255);
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Use Conditional Statements</title>
+
+    <link rel="stylesheet" href="myPizza.css">
+
+</head>
+
+<body>
+    <h1>JavaScript Pizzeria</h1>
+    <div id="orderForm">
+        <label>How many pizzas do you want?
+            <input type="number" id="numPizzas" />
+        </label>
+        <br />
+        <br />
+        <label>What kind of pizzas?
+            <select id="typePizza">
+                <option value="cheese">Cheese</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="somethingMeaty">Something Meaty</option>
+                <option value="chickenMayo">Chicken Mayo</option>
+                <option value="bbqBacon">BBQ Bacon</option>
+                <option value="seafood">Seafood</option>
+            </select>
+        </label>
+        <br />
+        <br />
+        <label>Where do you live?
+            <select id="deliveryCity">
+                <option value="CapeTown">CapeTown</option>
+                <option value="Pretoria">Pretoria</option>
+                <option value="Durban">Durban</option>
+                <option value="Upinton">Upinton</option>
+                <option value="Bloemfontein">Bloemfontein</option>
+                <option value="Kimberley">Kimberley</option>
+                <option value="Johannesburg">Johannesburg</option>
+            </select>
+        </label>
+        <br />
+        <br />
+        <label>Is it your birthday?
+            <select id="birthday">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </label>
+        <br />
+        <br />
+        <button type="button" id="placeOrder">Place
+            Order</button>
+    </div>
+    <div id="displayTotal"></div>
+
+    <script src='myPizza.js'></script>
+    <!-- <script src='listings.js'></script> -->
+</body>
+
+</html>
